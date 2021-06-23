@@ -13,7 +13,7 @@ fields = "state_ut year murder attempt_to_murder rape kidnapping_abduction dacoi
 keys  = list(fields)
 cols = ['State', 'Year', 'Murder', 'Murder Attempt', 'Rape', 'Kidnapping', 'Dacoity', 'Robbery', 'Burglary', 'Theft', 'Riots', 'Cheating', 'Counterfeit', 'Arson', 'Total IPC']
 path = os.path.join(os.path.dirname(os.path.dirname(__file__)),'crime_data.csv')
-df=pd.read_csv(path)
+df=pd.read_csv(path, low_memory=False)
 df["total_ipc_crimes"]=df["total_ipc_crimes"].fillna(0)
 grouped = df.groupby(['state_ut','year']).sum().reset_index()
 district_grouped = df.groupby(['district','year']).sum().reset_index()
