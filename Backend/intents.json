@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "who",
+      "patterns": ["Who are you", "What is your name"],
+      "responses": ["I am a bot", "I am a chatbot"]
+    },
+    {
+      "tag": "child pornography",
+      "patterns": ["child pornography", "What is child pornography"],
+      "responses": ["Child sexually abusive material (CSAM) refers to material containing sexual image in any form,of a child who is abused or sexually exploited. Section 67 (B) of IT Act states that 'it is punishable for publishing or transmitting of material depicting children in sexually explicit act, etc. in electronic form.'"]
+    },
+    {
+      "tag": "stalking",
+      "patterns": ["stalking", "What is stalking"],
+      "responses": ["Cyber stalking is the use of electronic communication by a person to follow a person, or attempts to contact a person to foster personal interaction repeatedly despite a clear indication of disinterest by such person; or monitors the internet, email or any other form of electronic communication commits the offence of stalking."]
+    },
+    {
+      "tag": "job fraud",
+      "patterns": ["job fraud", "What is job fraud"],
+      "responses": ["Online Job Fraud is an attempt to defraud people who are in need of employment by giving them a false hope/ promise of better employment with higher wages."]
+    },
+    {
+      "tag": "vishing",
+      "patterns": ["vishing", "What is vishing"],
+      "responses": ["Vishing is an attempt where fraudsters try to seek personal information like Customer ID, Net Banking password, ATM PIN, OTP, Card expiry date, CVV etc. through a phone call."]
+    },
+    {
+      "tag": "impersonation and identity theft",
+      "patterns": ["impersonation and identity theft", "What is impersonation and identity theft"],
+      "responses": ["Impersonation and identity theft is an act of fraudulently or dishonestly making use of the electronic signature, password or any other unique identification feature of any other person."]
+    },
+    {
+      "tag": "phishing",
+      "patterns": ["phishing", "What is iphishing"],
+      "responses": ["Phishing is a type of fraud that involves stealing personal information such as Customer ID, IPIN, Credit/Debit Card number, Card expiry date, CVV number, etc. through emails that appear to be from a legitimate source."]
+    },
+    {
+      "tag": "ransomware",
+      "patterns": ["ransomware", "What is ransomware"],
+      "responses": ["Ransomware is a type of computer malware that encrypts the files, storage media on communication devices like desktops, Laptops, Mobile phones etc., holding data/information as a hostage. The victim is asked to pay the demanded ransom to get his device decrypts."]
+    },
+    {
+      "tag": "data breach",
+      "patterns": ["data breach", "What is data breach"],
+      "responses": ["A data breach is an incident in which information is accessed without authorization"]
+    },
+    {
+      "tag": "online drug trafficking",
+      "patterns": ["online drug trafficking", "what is online drug trafficking"],
+      "responses": ["Online Drug Trafficking is a crime of selling, transporting, or illegally importing unlawful controlled substances, such as heroin, cocaine, marijuana, or other illegal drugs using electronic means."]
+    },
+    {
+      "tag": "rape",
+      "patterns": ["rape", "what is rape"],
+      "responses": ["Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability or is below the legal age of consent. The term rape is sometimes used interchangeably with the term sexual assault"]
+    },
+    {
+      "tag": "sexual assault",
+      "patterns": ["sexual assault", "what is sexual assault"],
+      "responses": ["Sexual assault is an act in which a person intentionally sexually touches another person without that person's consent, or coerces or physically forces a person to engage in a sexual act against their will"]
+    },
+    {
+      "tag": "homicide",
+      "patterns": ["homicide", "what is homicide"],
+      "responses": ["Crimes such as first and second degree murder, involuntary manslaughter, and vehicular homicide"]
+    },
+    {
+      "tag": "robbery",
+      "patterns": ["robbery", "what is robbery"],
+      "responses": ["Theft by force. NOTE: this is also considered a personal crime since it results in physical and mental harm"]
+    },
+    {
+      "tag": "crime",
+      "patterns":["what is crime","what do you mean by crime", "define crime"],
+      "responses":["An action or omission which constitutes an offence and is punishable by law."]
+    },
+    {
+      "tag": "types",
+      "patterns":["types of crime", "crime types"],
+      "responses":["Cognizable, Non Cognizable, Missing Cases, Theft Cases"]
+    },
+    {
+      "tag": "Cognizable and Non-Cognizable",
+      "patterns":["Cognizable and Non-Cognizable crimes", "cognizable", "non cognizable"],
+      "responses":["Cognizable are heinous crimes, whereas non-cognizable offences are not so serious. Cognizable encompasses murder, rape, theft, kidnapping, counterfeiting, etc. On the contrary, non-cognizable offences include offences like forgery, cheating, assault, defamation and so forth."]
+      },
+      {
+      "tag": "Theft",
+      "patterns":["what is theft", "theft"],
+      "responses":["Theft, also known as larceny, is a serious crime that involves unlawfully taking or using property that belongs to another person. If you have been arrested for theft, you have either been charged with petty theft or grand theft."]
+    }
+    
+  ]
+}
