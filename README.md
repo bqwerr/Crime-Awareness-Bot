@@ -22,5 +22,5 @@ py manage.py makemigrations
 py manage.py migrate
 py manage.py runserver
 ```
-To use your Dialogflow agent place your project service account key in root folder
+To use your Dialogflow agent place your project service account key in root folder.
 Service accounts can be found at Google Cloud Console -> IAM & Admin
