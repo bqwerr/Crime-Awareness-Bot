@@ -61,9 +61,11 @@
 
 The objective of this project is to create a chatbot that can be used to create awareness about the crimes, by fetching statistical data from the dataset. The chatbot will ask query about your problem and fetch the data based on the intents and entities recognized from the trained data. It can also help in registering compliants through chatbot. An interactive Map has been developed in the application to fetch nearby police stations and register an SOS.
 
-* NLTK Python libraries are used to tokenize words into input arrays, which are then provided as inputs to a neural network.
+<br />
+
+* NLTK Python library is used to tokenize words into input arrays, which are then provided as inputs to a neural network.
 * Patterns will be input arrays and tag will be as the label to train the model.
-    * ![Intents](/media/intents.png)
+    ![Intents](/media/intents.png)
 
 <br />
 
