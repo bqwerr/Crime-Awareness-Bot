@@ -27,7 +27,7 @@
 <br />
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -85,7 +85,7 @@ The objective of this project is to create a chatbot that can be used to create 
 <br />
 
 
-<details>
+<details open>
 
 <summary> Screenshots of the application </summary>
 
